@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Forms</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Form</h1>
+    
+        <form action="userData.php" method="get">
+            <div>
+                <lable for="firstName">First Name</lable>
+            </div>
+            <input type="text" id="firstName" name="fName"/>
+
+            <div>
+                <lable for="email">Email</lable>
+            </div>
+            <input type="text" id="email" name="Email"/>
+            <div>
+                <textarea name="message" rows="10" cols="30"></textarea>
+            </div>
+            <div>
+                <label for="country">Select country: </label>
+            </div>
+            <select id="country" name="country">
+                <option value="Bulgaria">Bulgaria</option>
+                <option value="Serbia" selected>Serbia</option>
+                <option value="Romania">Romania</option>
+            </select>
+            <div>
+                <input type="submit" />
+            </div>
+        </form>
+    </body>
+</html>
